@@ -16,3 +16,5 @@ mypy
 types-requests
 types-urllib3
 setuptools
+brotlicffi>=1.2.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
